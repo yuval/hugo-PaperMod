@@ -1,0 +1,68 @@
+# If your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would
+# contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+baseURL: "https://yuvalmerhav.com"
+paginate: 100
+theme: [hugo-PaperMod]
+title: Yuval Merhav |ß AI, Tech, Investing & More
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts", "papermod"]
+# googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  # minifyOutput: true
+
+  menu:
+    main:
+      - name: Archive
+        url: archives
+        weight: 5
+      - name: Search
+        url: search/
+        weight: 10
+      - name: Tags
+        url: tags/
+        weight: 10
+
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "A blog by Yuval Merhav about AI (ML / NLP) Tech, Investing & More"
+  author: Yuval Merhav
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  # comments: false
+  #images: ["images/papermod-cover.png"]
+
+  homeInfoParams:
+    Title: "Yuval Merhav"
+    Content: 
+      👋 Welcome! I'm Yuval and this is my blog. These days I play with LLMs for invesement research. For a more detailed bio see About or my LinkedIn [profile](https://www.linkedin.com/in/yuvalmerhav). Want to talk? Send me a LinkedIn msg or Email me (contact@[my-full-name].com). You can also book a [paid call](https://talkw.me/@yuval) if you're interested in my advice.
+
+  socialIcons:
+    - name: Github
+      title: My Github
+      url: https://github.com/yuval
+    - name: Twitter
+      title: Follow me on X/Twitter
+      url: "https://twitter.com/yuvalmerhav"
+    - name: LinkedIn
+      title: My profile
+      url: "https://www.linkedin.com/in/yuvalmerhav"
