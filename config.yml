@@ -54,7 +54,7 @@ params:
   homeInfoParams:
     Title: "Yuval Merhav"
     Content: 
-      👋 Welcome! I'm Yuval and this is my blog. These days I play with LLMs for invesement research. For a more detailed bio see About or my LinkedIn [profile](https://www.linkedin.com/in/yuvalmerhav). Want to talk? Send me a LinkedIn msg or Email me (contact@[my-full-name].com). You can also book a [paid call](https://talkw.me/@yuval) if you're interested in my advice.
+      👋 Welcome! I'm Yuval and this is my blog. These days I play with LLMs for invesement research at [Portrait Analytics](https://portrait-analytics.com). For a more detailed bio see About (WIP) or my LinkedIn [profile](https://www.linkedin.com/in/yuvalmerhav). Want to talk? Send me a LinkedIn msg or Email me (contact@[my-full-name].com). <!--You can also book a [paid call](https://talkw.me/@yuval) if you're interested in my advice.-->
 
   socialIcons:
     - name: Github
