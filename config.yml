@@ -3,7 +3,7 @@
 baseURL: "https://yuvalmerhav.com"
 paginate: 100
 theme: [hugo-PaperMod]
-title: Yuval Merhav |ß AI, Tech, Investing & More
+title: Yuval Merhav | AI, Investing & More
 enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
